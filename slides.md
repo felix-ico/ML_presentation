@@ -526,7 +526,7 @@ image: './limitations.jpg'
 <div style="display: flex; justfy-content: space-between;">
 <div style="padding: 8px;">
   <video autoplay loop width="180" height="180" controls>
-    <source src="videos/original.mp4" type="video/mp4">
+    <source src="/videos/original.mp4" type="video/mp4">
   </video> 
   <span style="font-size:8px; display: flex;"> original, 4fps </span>
 </div>
@@ -534,7 +534,7 @@ image: './limitations.jpg'
 
 <div style="padding: 8px;">
   <video autoplay loop width="180" height="180" controls>
-    <source src="videos/strength2.mp4" type="video/mp4">
+    <source src="/videos/strength2.mp4" type="video/mp4">
   </video> 
   <span style="font-size:8px; display: flex;"> standard settings, input prompt: futuristic,  increasing strength by 10 on each loop </span>
 </div>
@@ -542,7 +542,7 @@ image: './limitations.jpg'
 <div style="padding: 8px;">
 
   <video autoplay loop width="180" height="180" controls>
-    <source src="videos/sameseed.mp4" type="video/mp4">
+    <source src="/videos/sameseed.mp4" type="video/mp4">
   </video> 
   <span style="font-size:8px; display: flex;"> same seed number, input prompt: futuristic,  increasing strength by 10 on each loop </span>
 </div>
@@ -551,7 +551,7 @@ image: './limitations.jpg'
 <div style="padding: 8px;">
 
   <video autoplay loop width="180" height="180" controls>
-    <source src="videos/sameseedchangedimm.mp4" type="video/mp4">
+    <source src="/videos/sameseedchangedimm.mp4" type="video/mp4">
   </video> 
   <span style="font-size:8px; display: flex;"> same seed number, input prompt: futuristic, increasing ddimm by 10 on each loop </span>
 
