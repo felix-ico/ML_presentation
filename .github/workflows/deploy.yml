@@ -4,8 +4,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
           node-version: '16'
       - name: Install dependencies
@@ -13,9 +13,11 @@ jobs:
       - name: Install slidev
         run:  npm i -g @slidev/cli
       - name: Build
-        run: slidev build --base ML_presentation
+        run: |
+          yarn build --base /ML_presentation/
+          cp dist/index.html dist/404.html
       - name: Deploy pages
-        uses: crazy-max/ghaction-github-pages@v3
+        uses: crazy-max/ghaction-github-pages@v2
         with:
           build_dir: dist
         env:
