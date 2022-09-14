@@ -887,24 +887,16 @@ image: './fails.jpg'
   <span class="label">painter painting himself</span>
   </div>
   <div>
-
-
   <img src="/fails/einstein.png" h-50 class=" rounded shadow" />
   <span class="label">albert einstein and winnie the pooh on a boat, photorealistic</span>
-
-
   </div>
   <div>
-
   <img src="/fails/maneatingmoney.png" h-50 class=" rounded shadow" />
   <span class="label">man eating money, photograph</span>
-
   </div>
   <div>
   <img src="/fails/marx.jpg" h-50 class=" rounded shadow" />
   <span class="label">karl marx as a hamster</span>
-
-
   </div>
 </div> 
 
@@ -916,4 +908,4 @@ image: './fails.jpg'
     margin-top: 2px;
     margin-bottom: 2px;
   }
-  </style>
+</style>
