@@ -25,7 +25,7 @@ drawings:
 css: unocss
 ---
 
-# My Experience DallE and Stable Difusion
+# My Experience using DallE and Stable Difusion
 
 ---
 layout: image-right
@@ -53,7 +53,7 @@ image: './txt2img.jpg'
 ---
 # txt2img
 <ul>
-<li v-click> text to image involves creating an imput prompt in natural language that the model will try to interpret to generate an image </li>
+<li v-click> text to image involves creating an input prompt in natural language that the model will try to interpret to generate an image </li>
 </ul>
 ---
 
@@ -502,11 +502,11 @@ image: './limitations.jpg'
   output only as good as the input (input prompt *and* training data set )
 </li>
 <li v-click>
-  dificult to get consistent results
+  difficult to get consistent results
 </li>
 
 <li v-click>
-  Dalle:
+  DallE:
   <ul>
    <li>15 credits per month, 4 images per credit</li>
   <li>content filters</li>
@@ -553,7 +553,7 @@ image: './limitations.jpg'
   <video autoplay loop width="180" height="180" controls>
     <source src="/videos/sameseedchangedimm.mp4" type="video/mp4">
   </video> 
-  <span style="font-size:8px; display: flex;"> same seed number, input prompt: futuristic, increasing ddimm by 10 on each loop </span>
+  <span style="font-size:8px; display: flex;"> same seed number, input prompt: futuristic, increasing ddim by 10 on each loop </span>
 
 </div>
 </div>
