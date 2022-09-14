@@ -25,7 +25,7 @@ drawings:
 css: unocss
 ---
 
-# DallE and Stable Difusion
+# My Experience DallE and Stable Difusion
 
 ---
 layout: image-right
